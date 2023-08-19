@@ -70,12 +70,21 @@ ol[class] {
   letter-spacing: 0.09em;
   font-size: 14px;
 }
-.main-screen {
+
+.my-carousel{
+  padding: 0;
+}
+
+.carousel-item{
+  max-height: 100%;
+}
+
+/* .main-screen {
   background: url(./img/bg_main.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 @media (max-width: 767px) {
   .icon-menu {
@@ -134,8 +143,9 @@ ol[class] {
 .menu_body {
 }
 .menu_link {
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.6px;
   color: white;
