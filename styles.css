@@ -56,10 +56,10 @@ ol[class] {
   display: flex;
   flex-direction: column;
 }
-.main-screen {
+/* .main-screen {
   flex: 1 0 100%;
   position: relative;
-}
+} */
 .content {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -71,12 +71,17 @@ ol[class] {
   font-size: 14px;
 }
 
-.my-carousel{
+.my-carousel {
   padding: 0;
 }
 
-.carousel-item{
-  max-height: 100%;
+.my-carousel .carousel-item {
+  display: flex;
+  height: 100%;
+}
+
+.my-carousel .carousel-item img {
+  object-fit: cover;
 }
 
 /* .main-screen {
@@ -85,7 +90,7 @@ ol[class] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
-}
+/* } */
 @media (max-width: 767px) {
   .icon-menu {
     display: block;
