@@ -1,0 +1,4 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f72833bb_002D79f3_002D4a01_002Db998_002D2987c2b94d58/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Admin_Can_Create_Photoshoots" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/home/dmitry/projects/aleksandrovanewborn_02/backend/AleksandrovaNewborn.Tests" Presentation="&amp;lt;AleksandrovaNewborn.Tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -3,6 +3,7 @@ using System;
 using AleksandrovaNewborn;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AleksandrovaNewborn.Migrations
 {
     [DbContext(typeof(AleksandrovaNewbornContext))]
-    partial class AleksandrovaNewbornContextModelSnapshot : ModelSnapshot
+    [Migration("20230821144814_ClientColumns")]
+    partial class ClientColumns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
